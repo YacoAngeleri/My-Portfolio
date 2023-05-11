@@ -1,0 +1,1 @@
+Página creada con el objetivo de mostrar un poco sobre los estudios, proyectos realizados y algunas informaciones extras que puedan ser útiles
