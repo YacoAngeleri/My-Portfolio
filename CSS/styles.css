@@ -31,6 +31,9 @@ header a {
 header a img {
   width: 60%;
 }
+header a img:hover {
+  width: 65%;
+}
 header .navbar-toggler {
   background-color: rgb(95, 165, 189);
 }
@@ -50,9 +53,6 @@ header li {
 }
 header li a {
   color: gray;
-}
-header img:hover {
-  width: 65%;
 }
 header li a:hover {
   font-size: 1.1em;
@@ -312,6 +312,9 @@ footer a:hover {
   header a img {
     width: 80%;
   }
+  header a img:hover {
+    width: 85%;
+  }
   header ul {
     flex-direction: column;
   }
@@ -337,12 +340,18 @@ footer a:hover {
     margin: 1em;
     width: 40vw;
   }
+  .container-paginas .pagina a img:hover {
+    width: 42vw;
+  }
 }
 @media screen and (max-width: 600px) {
   header a {
     width: 30%;
   }
   header a img {
+    width: 95%;
+  }
+  header a img:hover {
     width: 100%;
   }
   header .navbar-toggler {
@@ -364,6 +373,9 @@ footer a:hover {
   .container-paginas .pagina img {
     margin: 1em;
     width: 50vw;
+  }
+  .container-paginas .pagina a img:hover {
+    width: 52vw;
   }
 }
 @media screen and (max-width: 483px) {

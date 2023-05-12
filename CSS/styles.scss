@@ -31,8 +31,12 @@ header {
 
     a img {
         width: 60%;
-
     }
+
+    a img:hover {
+        width: 65%;
+    }
+
 
     .navbar-toggler {
         background-color: rgb(95, 165, 189);
@@ -58,10 +62,6 @@ header {
 
     li a {
         color: gray;
-    }
-
-    img:hover {
-        width: 65%;
     }
 
     li a:hover {
@@ -278,7 +278,8 @@ a:active {
 .container-lenguajes {
     width: 30%;
     margin: auto;
-    .carousel-item{
+
+    .carousel-item {
         background-color: transparent;
     }
 }
@@ -350,7 +351,9 @@ footer {
         a img {
             width: 80%;
         }
-
+        a img:hover {
+            width: 85%;
+        }
         ul {
             flex-direction: column;
         }
@@ -385,6 +388,10 @@ footer {
                 margin: 1em;
                 width: 40vw;
             }
+
+            a img:hover {
+                width: 42vw;
+            }
         }
     }
 }
@@ -396,6 +403,9 @@ footer {
         }
 
         a img {
+            width: 95%;
+        }
+        a img:hover {
             width: 100%;
         }
 
@@ -421,11 +431,14 @@ footer {
     }
 
     .container-paginas {
-
         .pagina {
             img {
                 margin: 1em;
                 width: 50vw;
+            }
+
+            a img:hover {
+                width: 52vw;
             }
         }
     }
