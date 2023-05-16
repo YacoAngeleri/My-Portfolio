@@ -22,20 +22,14 @@ section {
 
 //Header
 header {
-    padding: 1em;
-    padding-bottom: 0;
-    margin-bottom: 1em;
-
-    a {
-        width: 20%;
-    }
-
+    padding: 1em 1em 0 1em;
+    
     a img {
-        width: 60%;
+        width: 50%;
     }
 
     a img:hover {
-        width: 65%;
+        width: 55%;
     }
 
 
@@ -58,7 +52,6 @@ header {
     li {
         list-style: none;
         padding-left: 1em;
-        margin: 1em auto;
     }
 
     li a {
@@ -71,13 +64,53 @@ header {
     }
 
     li a:hover {
-        color: rgb(0, 0, 26);
+        color: rgb(34, 34, 34);
     }
 
     li a:active {
         color: black;
     }
 
+    //Boton dark mode
+    .container-btn-mode {
+        display: inline-block;
+        margin: auto;
+        justify-content: right;
+        cursor: pointer;
+        z-index: 2;
+        font-size: 0;
+    }
+
+    .btn-mode {
+        display: inline-block;
+        width: 4vw;
+        height: 2.5vw;
+        border: 2px solid black;
+        transition: background-color .5s;
+    }
+
+    .btn-mode i {
+        display: block;
+        font-size: 1.2vw;
+        text-align: center;
+        line-height: 2vw;
+    }
+
+    .btn-mode.sun {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-right: 1px solid transparent;
+    }
+
+    .btn-mode.moon {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .active {
+        background-color: black;
+        color: #ffcd5c !important;
+    }
 
 }
 
@@ -93,14 +126,13 @@ header {
     position: relative;
     display: inline-block;
     margin-left: 2em;
-    margin-right: 2em;
     border: none;
     border-radius: .2em;
     font-weight: bold;
     background-color: rgb(64, 155, 186);
 }
 
-//Efecto arriba y abajo del boton
+//Efecto arriba y abajo del boton con before y after
 .btns-idioma::before,
 .btns-idioma::after {
     content: '';
@@ -132,48 +164,6 @@ header {
 
 #español {
     display: none;
-}
-
-//Boton dark mode
-
-.container-btn-mode {
-    display: inline-block;
-    margin: auto;
-    justify-content: right;
-    cursor: pointer;
-    z-index: 2;
-    font-size: 0;
-}
-
-.btn-mode {
-    display: inline-block;
-    width: 4vw;
-    height: 2.5vw;
-    border: 2px solid black;
-    transition: background-color .5s;
-}
-
-.btn-mode i {
-    display: block;
-    font-size: 1.2vw;
-    text-align: center;
-    line-height: 2vw;
-}
-
-.btn-mode.sun {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-right: 1px solid transparent;
-}
-
-.btn-mode.moon {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.active {
-    background-color: black;
-    color: #ffcd5c !important;
 }
 
 .autor {
@@ -352,9 +342,11 @@ footer {
         a img {
             width: 80%;
         }
+
         a img:hover {
             width: 85%;
         }
+
         ul {
             flex-direction: column;
         }
@@ -406,6 +398,7 @@ footer {
         a img {
             width: 95%;
         }
+
         a img:hover {
             width: 100%;
         }
