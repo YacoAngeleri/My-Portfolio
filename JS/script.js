@@ -85,6 +85,7 @@ document.getElementById('id-sun').onclick = function(){
   document.getElementById('card').style.background = "rgb(24, 92, 115)";
   document.getElementById('card2').style.background = "rgb(24, 92, 115)";
   document.getElementById('card3').style.background = "rgb(24, 92, 115)";
+  document.getElementById('container-curriculum').style.background = "rgb(41, 112, 136)";
   document.getElementById('id-moon').classList.remove('active');
   this.classList.add('active');
 }
@@ -101,5 +102,6 @@ document.getElementById('id-moon').onclick = function(){
   document.getElementById('card').style.background = "rgb(51, 51, 51)";
   document.getElementById('card2').style.background = "rgb(51, 51, 51)";
   document.getElementById('card3').style.background = "rgb(51, 51, 51)";
+  document.getElementById('container-curriculum').style.background = "rgb(65, 64, 64)";
   this.classList.add('active')
 }

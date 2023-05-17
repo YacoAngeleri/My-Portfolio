@@ -234,6 +234,22 @@ a:active {
   padding: 1em;
 }
 
+.container-curriculum {
+  background-color: rgb(41, 112, 136);
+  border-radius: 2em;
+  text-align: center;
+  margin: auto;
+}
+.container-curriculum iframe {
+  margin: 1em;
+  border-radius: 1em;
+  width: 20em;
+  height: 20em;
+}
+.container-curriculum iframe:hover {
+  font-size: 1.05em;
+}
+
 .container-lenguajes {
   width: 30%;
   margin: auto;
@@ -331,6 +347,10 @@ footer a:hover {
   .container-paginas .pagina a img:hover {
     width: 42vw;
   }
+  .container-curriculum iframe {
+    width: 15em;
+    height: 15em;
+  }
 }
 @media screen and (max-width: 600px) {
   header a {
@@ -365,6 +385,10 @@ footer a:hover {
   .container-paginas .pagina a img:hover {
     width: 52vw;
   }
+  .container-curriculum iframe {
+    width: 12em;
+    height: 12em;
+  }
 }
 @media screen and (max-width: 483px) {
   header .navbar-toggler {
@@ -388,5 +412,9 @@ footer a:hover {
   }
   .container-educacion img {
     width: 35%;
+  }
+  .container-curriculum iframe {
+    width: 9em;
+    height: 9em;
   }
 }/*# sourceMappingURL=styles.css.map */

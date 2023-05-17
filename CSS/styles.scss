@@ -266,6 +266,22 @@ a:active {
     padding: 1em;
 }
 
+.container-curriculum{
+    background-color: rgb(41, 112, 136);
+    border-radius: 2em;
+    text-align: center;
+
+    margin: auto;
+    iframe{
+        margin: 1em;
+        border-radius: 1em;
+        width: 20em;
+        height: 20em;
+    }
+    iframe:hover{
+        font-size: 1.05em;
+    }
+}
 .container-lenguajes {
     width: 30%;
     margin: auto;
@@ -387,6 +403,12 @@ footer {
             }
         }
     }
+    .container-curriculum{
+        iframe{
+            width: 15em;
+            height: 15em;
+        }
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -436,6 +458,12 @@ footer {
             }
         }
     }
+    .container-curriculum{
+        iframe{
+            width: 12em;
+            height: 12em;
+        }
+    }
 }
 
 @media screen and (max-width:483px) {
@@ -468,6 +496,12 @@ footer {
     .container-educacion {
         img {
             width: 35%;
+        }
+    }
+    .container-curriculum{
+        iframe{
+            width: 9em;
+            height: 9em;
         }
     }
 }
