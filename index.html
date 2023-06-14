@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="SCSS/responsive/responsive.css">
     <link rel="stylesheet" type="text/css" href="SCSS/scrollbar/scrollbar.css">
     <link rel="stylesheet" type="text/css" href="SCSS/btn-volver/btnVolver.css">
+    <link rel="stylesheet" type="text/css" href="SCSS/formulario/formulario.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -274,7 +275,8 @@
             <section>
                 <h2><strong>Curriculum:</strong></h2>
                 <div class="container-curriculum" id="container-curriculum">
-                    <iframe src="https://drive.google.com/file/d/1TVGKt1aSfiDU3Wlky_Wbik6sFX375fAb/preview" allow="autoplay"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1TVGKt1aSfiDU3Wlky_Wbik6sFX375fAb/preview"
+                        allow="autoplay"></iframe>
                 </div>
             </section>
 
@@ -316,6 +318,60 @@
                     </button>
                 </div>
             </div>
+            <section>
+            <div class="container-formulario">
+                <h2><strong>Formulario de contacto:</strong></h2>
+                <form class="row g-3 needs-validation" name="formulario" id="formulario" action="mail.php" method="post"
+                    novalidate>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <label for="validationCustom01" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="validationCustom01" name="nombre" value="" required>
+                        <div class="valid-feedback">
+                            Dato valido
+                        </div>
+                        <div class="invalid-feedback">
+                            Por favor escriba su nombre
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <label for="validationCustom02" class="form-label">Correo electronico:</label>
+                        <input type="text" class="form-control" id="validationCustom02" name="email" value=""
+                            required>
+                        <div class="valid-feedback">
+                            Dato valido
+                        </div>
+                        <div class="invalid-feedback">
+                            Por favor escriba su correo electronico
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <label for="asunto" class="form-label">Asunto:</label>
+                        <textarea name="asunto" class="form-control" id="validationCustom3" cols="30"
+                            rows="3" required></textarea>
+                            <div class="valid-feedback">
+                                Dato valido
+                            </div>
+                            <div class="invalid-feedback">
+                                Por favor escriba el asunto
+                            </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <label for="mensaje" class="form-label">Mensaje:</label>
+                        <textarea name="mensaje" class="form-control" id="validationCustom4" cols="30"
+                            rows="3" required></textarea>
+                            <div class="valid-feedback">
+                                Dato valido
+                            </div>
+                            <div class="invalid-feedback">
+                                Por favor escriba su mensaje
+                            </div>
+                    </div>
+                    <div class="col-12" id="btn-enviar">
+                        <button class="btns-idioma" type="submit" >Enviar formulario</button>
+                    </div>
+                </form>
+            </div>
+        </section>
         </main>
     </div>
     <hr>
@@ -332,7 +388,24 @@
     </button>
 
 </body>
+<script>
+    //Validacion del formulario con Boomstrap
+    (() => {
+        'use strict'
+        const forms = document.querySelectorAll('.needs-validation')
 
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
