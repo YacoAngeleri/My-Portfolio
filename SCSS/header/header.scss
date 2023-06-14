@@ -1,0 +1,51 @@
+//Header
+header {
+    padding: 1em 1em 0 1em;
+    
+    a img {
+        width: 50%;
+    }
+
+    a img:hover {
+        width: 55%;
+    }
+
+
+    .navbar-toggler {
+        background-color: rgb(95, 165, 189);
+
+        span i {
+            font-size: 1.5em;
+            position: relative;
+            top: .2vw;
+        }
+    }
+
+    ul {
+        display: flex;
+        margin: auto;
+
+    }
+
+    li {
+        list-style: none;
+        padding-left: 1em;
+    }
+
+    li a {
+        color: gray;
+    }
+
+    li a:hover {
+        font-size: 1.1em;
+        opacity: 0.7;
+    }
+
+    li a:hover {
+        color: rgb(34, 34, 34);
+    }
+
+    li a:active {
+        color: black;
+    }
+}

@@ -1,0 +1,111 @@
+@media screen and (max-width: 991px) {
+  header a {
+    width: 25%;
+  }
+  header a img {
+    width: 80%;
+  }
+  header a img:hover {
+    width: 85%;
+  }
+  header ul {
+    flex-direction: column;
+  }
+  header li {
+    margin: 0.5em auto;
+  }
+  .btn-mode {
+    width: 5vw;
+    height: 3.5vw;
+  }
+  .btn-mode i {
+    font-size: 1.5vw;
+    line-height: 3.2vw;
+  }
+  .container-educacion img {
+    margin-left: 0.5em;
+    width: 30%;
+  }
+  .container-paginas {
+    flex-direction: column;
+  }
+  .container-paginas .pagina img {
+    margin: 1em;
+    width: 40vw;
+  }
+  .container-paginas .pagina a img:hover {
+    width: 42vw;
+  }
+  .container-curriculum iframe {
+    width: 15em;
+    height: 15em;
+  }
+}
+@media screen and (max-width: 600px) {
+  header a {
+    width: 30%;
+  }
+  header a img {
+    width: 95%;
+  }
+  header a img:hover {
+    width: 100%;
+  }
+  header .navbar-toggler {
+    font-size: 0.9em;
+  }
+  header .navbar-toggler span i {
+    font-size: 1.5em;
+    position: relative;
+    top: 0.2vw;
+  }
+  header .btn-mode {
+    width: 8vw;
+    height: 5vw;
+  }
+  header .btn-mode i {
+    font-size: 2vw;
+    line-height: 4.2vw;
+  }
+  .container-paginas .pagina img {
+    margin: 1em;
+    width: 50vw;
+  }
+  .container-paginas .pagina a img:hover {
+    width: 52vw;
+  }
+  .container-curriculum iframe {
+    width: 12em;
+    height: 12em;
+  }
+}
+@media screen and (max-width: 483px) {
+  header .navbar-toggler {
+    font-size: 0.8em;
+  }
+  header .navbar-toggler span i {
+    font-size: 1.5em;
+    position: relative;
+    top: 0.2vw;
+  }
+  header .btn-mode {
+    width: 9vw;
+    height: 6vw;
+  }
+  header .btn-mode i {
+    font-size: 3vw;
+    line-height: 5vw;
+  }
+  .btns-idioma {
+    margin: 0;
+  }
+  .container-educacion img {
+    width: 35%;
+  }
+  .container-curriculum iframe {
+    width: 9em;
+    height: 9em;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,157 @@
+//Diseño responsive
+@media screen and (max-width:991px) {
+    header {
+        a {
+            width: 25%;
+        }
+
+        a img {
+            width: 80%;
+        }
+
+        a img:hover {
+            width: 85%;
+        }
+
+        ul {
+            flex-direction: column;
+        }
+
+        li {
+            margin: 0.5em auto;
+        }
+    }
+
+    .btn-mode {
+        width: 5vw;
+        height: 3.5vw;
+    }
+
+    .btn-mode i {
+        font-size: 1.5vw;
+        line-height: 3.2vw;
+    }
+
+    .container-educacion {
+        img {
+            margin-left: .5em;
+            width: 30%;
+        }
+    }
+
+    .container-paginas {
+        flex-direction: column;
+
+        .pagina {
+            img {
+                margin: 1em;
+                width: 40vw;
+            }
+
+            a img:hover {
+                width: 42vw;
+            }
+        }
+    }
+    .container-curriculum{
+        iframe{
+            width: 15em;
+            height: 15em;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    header {
+        a {
+            width: 30%;
+        }
+
+        a img {
+            width: 95%;
+        }
+
+        a img:hover {
+            width: 100%;
+        }
+
+        .navbar-toggler {
+            font-size: 0.9em;
+
+            span i {
+                font-size: 1.5em;
+                position: relative;
+                top: .2vw;
+            }
+        }
+
+        .btn-mode {
+            width: 8vw;
+            height: 5vw;
+        }
+
+        .btn-mode i {
+            font-size: 2vw;
+            line-height: 4.2vw;
+        }
+    }
+
+    .container-paginas {
+        .pagina {
+            img {
+                margin: 1em;
+                width: 50vw;
+            }
+
+            a img:hover {
+                width: 52vw;
+            }
+        }
+    }
+    .container-curriculum{
+        iframe{
+            width: 12em;
+            height: 12em;
+        }
+    }
+}
+
+@media screen and (max-width:483px) {
+    header {
+        .navbar-toggler {
+            font-size: 0.8em;
+
+            span i {
+                font-size: 1.5em;
+                position: relative;
+                top: .2vw;
+            }
+        }
+
+        .btn-mode {
+            width: 9vw;
+            height: 6vw;
+        }
+
+        .btn-mode i {
+            font-size: 3vw;
+            line-height: 5vw;
+        }
+    }
+
+    .btns-idioma {
+        margin: 0;
+    }
+
+    .container-educacion {
+        img {
+            width: 35%;
+        }
+    }
+    .container-curriculum{
+        iframe{
+            width: 9em;
+            height: 9em;
+        }
+    }
+}

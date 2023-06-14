@@ -1,0 +1,119 @@
+//Main
+
+.container-educacion {
+    background-color: rgb(41, 112, 136);
+    border-radius: 2em;
+    padding: 1em;
+
+    .artes-multimediales,
+    .oracle,
+    .colegio {
+        display: flex;
+
+        .contenido-educacion {
+            width: 70%;
+        }
+    }
+
+    img {
+        width: 20%;
+        margin: auto;
+    }
+}
+
+.container-paginas {
+    background-color: rgb(41, 112, 136);
+    border-radius: 2em;
+    display: flex;
+
+    a {
+        color: darkgray;
+    }
+
+    a:hover {
+        color: rgb(0, 0, 26);
+        font-size: 1.2em;
+
+        h3:hover {
+            font-size: 1.6em;
+        }
+
+        img:hover {
+            width: 31vw;
+        }
+    }
+
+    .pagina {
+        margin: .8em auto;
+        text-align: center;
+
+        img {
+            margin: 1em;
+            width: 30vw;
+        }
+    }
+
+}
+
+.btn-collapse {
+    color: white;
+    text-decoration: none;
+}
+
+#card {
+    background-color: rgb(24, 92, 115);
+    border-radius: 1em;
+    color: rgb(200, 200, 200);
+}
+
+#card2 {
+    background-color: rgb(24, 92, 115);
+    border-radius: 1em;
+    color: rgb(200, 200, 200);
+}
+
+#card3 {
+    background-color: rgb(24, 92, 115);
+    border-radius: 1em;
+    color: rgb(200, 200, 200);
+}
+
+.btn-collapse:hover {
+    color: rgb(0, 0, 26);
+}
+
+a:active {
+    color: black;
+}
+
+.container-habilidades {
+    background-color: rgb(41, 112, 136);
+    border-radius: 2em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.container-curriculum{
+    background-color: rgb(41, 112, 136);
+    border-radius: 2em;
+    text-align: center;
+
+    margin: auto;
+    iframe{
+        margin: 1em;
+        border-radius: 1em;
+        width: 20em;
+        height: 20em;
+    }
+    iframe:hover{
+        font-size: 1.05em;
+    }
+}
+.container-lenguajes {
+    width: 30%;
+    margin: auto;
+
+    .carousel-item {
+        background-color: transparent;
+    }
+}

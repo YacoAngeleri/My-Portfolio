@@ -1,0 +1,40 @@
+header {
+  padding: 1em 1em 0 1em;
+}
+header a img {
+  width: 50%;
+}
+header a img:hover {
+  width: 55%;
+}
+header .navbar-toggler {
+  background-color: rgb(95, 165, 189);
+}
+header .navbar-toggler span i {
+  font-size: 1.5em;
+  position: relative;
+  top: 0.2vw;
+}
+header ul {
+  display: flex;
+  margin: auto;
+}
+header li {
+  list-style: none;
+  padding-left: 1em;
+}
+header li a {
+  color: gray;
+}
+header li a:hover {
+  font-size: 1.1em;
+  opacity: 0.7;
+}
+header li a:hover {
+  color: rgb(34, 34, 34);
+}
+header li a:active {
+  color: black;
+}
+
+/*# sourceMappingURL=header.css.map */
