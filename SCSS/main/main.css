@@ -1,15 +1,28 @@
+:root {
+  --background-color: rgb(41, 112, 136);
+  --border-rad: 2em;
+}
+
+.container-about-me {
+  background-color: var(--background-color);
+  border-radius: var(--border-rad);
+  padding: 1em;
+}
+
 .container-educacion {
-  background-color: rgb(41, 112, 136);
-  border-radius: 2em;
+  background-color: var(--background-color);
+  border-radius: var(--border-rad);
   padding: 1em;
 }
 .container-educacion .artes-multimediales,
 .container-educacion .oracle,
+.container-educacion .openBootcamp,
 .container-educacion .colegio {
   display: flex;
 }
 .container-educacion .artes-multimediales .contenido-educacion,
 .container-educacion .oracle .contenido-educacion,
+.container-educacion .openBootcamp .contenido-educacion,
 .container-educacion .colegio .contenido-educacion {
   width: 70%;
 }
@@ -19,8 +32,8 @@
 }
 
 .container-paginas {
-  background-color: rgb(41, 112, 136);
-  border-radius: 2em;
+  background-color: var(--background-color);
+  border-radius: var(--border-rad);
   display: flex;
 }
 .container-paginas a {
@@ -97,6 +110,15 @@ a:active {
 }
 .container-curriculum iframe:hover {
   font-size: 1.05em;
+}
+.container-curriculum .titulos-curriculum {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1em;
+}
+.container-curriculum .curriculum {
+  display: flex;
+  justify-content: space-around;
 }
 
 .container-lenguajes {

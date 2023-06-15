@@ -1,12 +1,21 @@
 //Main
-
+:root {
+    --background-color:  rgb(41, 112, 136);
+    --border-rad: 2em;
+}
+.container-about-me{
+    background-color:var(--background-color);
+    border-radius: var(--border-rad);
+    padding: 1em;
+}
 .container-educacion {
-    background-color: rgb(41, 112, 136);
-    border-radius: 2em;
+    background-color: var(--background-color);
+    border-radius: var(--border-rad);
     padding: 1em;
 
     .artes-multimediales,
-    .oracle,
+    .oracle, 
+    .openBootcamp,
     .colegio {
         display: flex;
 
@@ -22,8 +31,8 @@
 }
 
 .container-paginas {
-    background-color: rgb(41, 112, 136);
-    border-radius: 2em;
+    background-color:var(--background-color);
+    border-radius: var(--border-rad);
     display: flex;
 
     a {
@@ -107,6 +116,15 @@ a:active {
     }
     iframe:hover{
         font-size: 1.05em;
+    }
+    .titulos-curriculum{
+        display: flex;
+        justify-content:space-around;
+        padding-top: 1em;
+    }
+    .curriculum{
+        display: flex;
+        justify-content: space-around;
     }
 }
 .container-lenguajes {

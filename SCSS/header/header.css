@@ -1,11 +1,14 @@
 header {
   padding: 1em 1em 0 1em;
 }
+header a {
+  width: 15%;
+}
 header a img {
-  width: 50%;
+  width: 80%;
 }
 header a img:hover {
-  width: 55%;
+  width: 85%;
 }
 header .navbar-toggler {
   background-color: rgb(95, 165, 189);
@@ -18,6 +21,8 @@ header .navbar-toggler span i {
 header ul {
   display: flex;
   margin: auto;
+  width: 100%;
+  justify-content: space-around;
 }
 header li {
   list-style: none;

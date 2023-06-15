@@ -1,13 +1,15 @@
 //Header
 header {
     padding: 1em 1em 0 1em;
-    
+    a{
+        width: 15%;
+    }
     a img {
-        width: 50%;
+        width: 80%;
     }
 
     a img:hover {
-        width: 55%;
+        width: 85%;
     }
 
 
@@ -24,6 +26,8 @@ header {
     ul {
         display: flex;
         margin: auto;
+        width: 100%;
+        justify-content: space-around;
 
     }
 

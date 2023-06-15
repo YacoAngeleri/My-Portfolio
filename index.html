@@ -26,7 +26,7 @@
 
 <body class="body" id="body">
     <header>
-        <nav class="navbar navbar-expand-lg" id="opciones">
+        <nav class="navbar navbar-expand-xl" id="opciones">
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://www.oracle.com/ar/education/oracle-next-education/">
                     <img src="Imagenes/oracle.png" width="80px" alt="logo One Oracle Next Education"></a>
@@ -38,19 +38,28 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul>
                         <li>
-                            <a href="https://www.linkedin.com/in/tomas-yaco-angeleri-6871ba26a" data-bs-toggle="tooltip"
-                                data-bs-placement="bottom" data-bs-title="Ir a Linkedin"><i class="bi bi-linkedin">
-                                    Linkedin</i></a>
+                            <a href="#acerca-de-mi" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" data-bs-title="Ir a Acerca de mi">Acerca de mi</a>
                         </li>
                         <li>
-                            <a href="https://github.com/YacoAngeleri" data-bs-toggle="tooltip"
-                                data-bs-placement="bottom" data-bs-title="Ir a GitHub"><i class="bi bi-github"></i>
-                                GitHub</a>
+                            <a href="#educacion" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" data-bs-title="Ir a Educacion">Educacion</a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/yaco.angeleri/" data-bs-toggle="tooltip"
-                                data-bs-placement="bottom" data-bs-title="Ir a Instagram"><i class="bi bi-instagram">
-                                    Instagram</i></a>
+                            <a href="#exp-programacion" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" data-bs-title="Ir a Experiencia en programacion">Experiencia en programacion</a>
+                        </li>
+                        <li>
+                            <a href="#habilidades" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" data-bs-title="Ir a Habilidades">Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#curriculum" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" data-bs-title="Ir a Curriculum">Curriculum</a>
+                        </li>
+                        <li>
+                            <a href="#form" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" data-bs-title="Ir a Formulario de contacto">Formulario de contacto</a>
                         </li>
                         <li>
                             <div class="container-btn-mode">
@@ -63,10 +72,8 @@
                             </div>
                         </li>
                     </ul>
-
                 </div>
             </div>
-
         </nav>
 
     </header>
@@ -78,12 +85,40 @@
         <img class="autor" src="Imagenes/yaco.png" alt="Imagen de Tomas Yaco Angeleri">
         <button class="btns-idioma" id="ingles" onclick="english()"> - Change language to English - </button>
         <button class="btns-idioma" id="español" onclick="spanish()"> - Cambiar idioma a Español - </button>
-        <h4><strong id="nombre">Tomas Yaco Angeleri</strong></h4>
+        <h4><strong id="nombre">Yaco Angeleri</strong></h4>
         <p id="cargo">Desarrollador Front-End Junior</p>
         <p>JavaScript | HTML | CSS | Bootstrap | React | SASS | Git | jQuery</p>
+        <p>Edad: 20 Años</p>
+        <p>Nacionalidad: Argentina</p>
 
         <main>
-            <section>
+            <section id="acerca-de-mi">
+                <h2><strong>Acerca de mi: </strong></h2>
+                <div class="container-about-me">
+                    <p><span class="typed"></span></p>
+                    <p> <a class='btn-collapse' data-bs-toggle='collapse' href='#collapse0' role='button'
+                            aria-expanded='false' aria-controls='collapse'>
+                            + Info </a> </p>
+                    <div class='collapse' id='collapse0'>
+                        <div class='card card-body' id='card2'>
+                            Hobbies: <br>
+                            - Disfruto mucho la musica y el deporte, gran apasionado del entrenamiento, ex tenista
+                            profesional.</br>
+                            - Apasionado de la cocina, disfruto pasar mis fines de semana leyendo y viendo
+                            peliculas/series. </br><br>
+                            Soft skills:<br>
+                            • Flexibilidad, adaptacion al cambio<br>
+                            • Capacidad de comunicacion efectiva<br>
+                            • Resolucion de problemas<br>
+                            • Trabajo en equipo<br>
+                            • Proactividad</br>
+                            • Creatividad<br>
+                            • Pensamiento critico
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="educacion">
                 <h2><strong id="educacion">Educación:</strong></h2>
                 <div class="container-educacion" id="container-educacion">
                     <div class="artes-multimediales">
@@ -123,15 +158,58 @@
                             </p>
                             <div class="collapse" id="collapse2">
                                 <div class="card card-body" id="card2">
-                                    Etapas finalizadas:<br>
+                                    Formaciones finalizadas:
+                                    <hr>
                                     • Desarrollo personal.<br>
                                     - Duración: 35 Horas<br>
+                                    <hr>
                                     • Principiante en programación.<br>
-                                    - Duración: 75 Horas
+                                    - Duración: 75 Horas<br>
+                                    <hr>
+                                    • HTML & CSS.<br>
+                                    - Duracion: 65 Horas<br>
+                                    <hr>
+                                    • Business Agility.<br>
+                                    - Duracion: 26 Horas<br>
                                 </div>
                             </div>
                         </div>
                         <img src="Imagenes/oracle.png" alt="One Oracle">
+                    </div>
+                    <hr>
+                    <div class="openBootcamp">
+                        <div class="contenido-educacion">
+                            <h4 id="curso">Curso de desarrollador Front-End</h4>
+                            <p id="año_curso">2023 / Presente</p>
+                            <p id="empresa_curso">Open Bootcamp.</p>
+                            <p>
+                                <a class="btn-collapse" data-bs-toggle="collapse" href="#collapse3" role="button"
+                                    aria-expanded="false" aria-controls="collapse">
+                                    + Info
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapse3">
+                                <div class="card card-body" id="card2">
+                                    Formaciones finalizadas:
+                                    <hr>
+                                    • Introduccion a la programacion.<br>
+                                    - Duración: 9 Horas<br>
+                                    <hr>
+                                    • Conceptos de la programacion.<br>
+                                    - Duracion: 9 Horas<br>
+                                    <hr>
+                                    • HTML y CSS<br>
+                                    - Duración: 17 Horas<br>
+                                    <hr>
+                                    • JavaScript Basico<br>
+                                    - Duración: 15 Horas<br>
+                                    <hr>
+                                    • TypeScript<br>
+                                    - Duracion: 9 Horas<br>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="Imagenes/openbootcamp.png" alt="Open Bootcamp">
                     </div>
                     <hr>
                     <div class="colegio">
@@ -140,12 +218,12 @@
                             <p>2015 / 2020</p>
                             <p id="numero_colegio">Colegio n° 788</p>
                             <p>
-                                <a class="btn-collapse" data-bs-toggle="collapse" href="#collapse3" role="button"
+                                <a class="btn-collapse" data-bs-toggle="collapse" href="#collapse4" role="button"
                                     aria-expanded="false" aria-controls="collapse">
                                     + Info
                                 </a>
                             </p>
-                            <div class="collapse" id="collapse3">
+                            <div class="collapse" id="collapse4">
                                 <div class="card card-body" id="card3">
                                     • Primer año de la licenciatura finalizado con un promedio general de 8,17 (ocho con
                                     17).<br>
@@ -160,8 +238,8 @@
                 </div>
             </section>
             <br>
-            <section>
-                <h2 class="titulo-paginas" id="titulo_pagina"><strong>Proyectos:</strong></h2>
+            <section id="exp-programacion">
+                <h2 class="titulo-paginas" id="titulo_pagina"><strong>Experiencia en programacion:</strong></h2>
                 <div class="container-paginas" id="container-paginas">
                     <div class="pagina">
                         <a href="https://yacoangeleri.github.io/Encriptador-De-Texto-By-Tomas-Yaco-Angeleri/">
@@ -215,7 +293,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="habilidades">
                 <h2 class="titulo-conocimientos" id="titulo_conocimientos"><strong>Habilidades:</strong></h2>
                 <div class="container-habilidades" id="container-habilidades">
                     <div class="progreso">
@@ -272,11 +350,17 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="curriculum">
                 <h2><strong>Curriculum:</strong></h2>
                 <div class="container-curriculum" id="container-curriculum">
-                    <iframe src="https://drive.google.com/file/d/1TVGKt1aSfiDU3Wlky_Wbik6sFX375fAb/preview"
-                        allow="autoplay"></iframe>
+                    <div class="titulos-curriculum">
+                        <h3>Curriculum en Español:</h3>
+                        <h3>Curriculum en Ingles:</h3>
+                    </div>
+                    <div class="curriculum">
+                    <iframe src="https://drive.google.com/file/d/1A9ykrBWSsUcMicBZvfxY_hYpcOPsXdQt/preview" width="640" height="480" allow="autoplay"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1fPN1e3aoD6LKH3UIy4BKXdimgCZ0uLRq/preview" width="640" height="480" allow="autoplay"></iframe>
+                </div>
                 </div>
             </section>
 
@@ -318,60 +402,61 @@
                     </button>
                 </div>
             </div>
-            <section>
-            <div class="container-formulario">
-                <h2><strong>Formulario de contacto:</strong></h2>
-                <form class="row g-3 needs-validation" name="formulario" id="formulario" action="mail.php" method="post"
-                    novalidate>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <label for="validationCustom01" class="form-label">Nombre:</label>
-                        <input type="text" class="form-control" id="validationCustom01" name="nombre" value="" required>
-                        <div class="valid-feedback">
-                            Dato valido
+            <section id="form">
+                <div class="container-formulario">
+                    <h2><strong>Formulario de contacto:</strong></h2>
+                    <form class="row g-3 needs-validation" name="formulario" id="formulario" action="mail.php"
+                        method="post" novalidate>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <label for="validationCustom01" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="validationCustom01" name="nombre" value=""
+                                required>
+                            <div class="valid-feedback">
+                                Dato valido
+                            </div>
+                            <div class="invalid-feedback">
+                                Por favor escriba su nombre
+                            </div>
                         </div>
-                        <div class="invalid-feedback">
-                            Por favor escriba su nombre
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <label for="validationCustom02" class="form-label">Correo electronico:</label>
+                            <input type="email" class="form-control" id="validationCustom02" name="email" value=""
+                                required>
+                            <div class="valid-feedback">
+                                Dato valido
+                            </div>
+                            <div class="invalid-feedback">
+                                Por favor escriba su correo electronico
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <label for="validationCustom02" class="form-label">Correo electronico:</label>
-                        <input type="text" class="form-control" id="validationCustom02" name="email" value=""
-                            required>
-                        <div class="valid-feedback">
-                            Dato valido
-                        </div>
-                        <div class="invalid-feedback">
-                            Por favor escriba su correo electronico
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <label for="asunto" class="form-label">Asunto:</label>
-                        <textarea name="asunto" class="form-control" id="validationCustom3" cols="30"
-                            rows="3" required></textarea>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <label for="asunto" class="form-label">Asunto:</label>
+                            <textarea name="asunto" class="form-control" id="validationCustom3" cols="30" rows="3"
+                                required></textarea>
                             <div class="valid-feedback">
                                 Dato valido
                             </div>
                             <div class="invalid-feedback">
                                 Por favor escriba el asunto
                             </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <label for="mensaje" class="form-label">Mensaje:</label>
-                        <textarea name="mensaje" class="form-control" id="validationCustom4" cols="30"
-                            rows="3" required></textarea>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <label for="mensaje" class="form-label">Mensaje:</label>
+                            <textarea name="mensaje" class="form-control" id="validationCustom4" cols="30" rows="3"
+                                required></textarea>
                             <div class="valid-feedback">
                                 Dato valido
                             </div>
                             <div class="invalid-feedback">
                                 Por favor escriba su mensaje
                             </div>
-                    </div>
-                    <div class="col-12" id="btn-enviar">
-                        <button class="btns-idioma" type="submit" >Enviar formulario</button>
-                    </div>
-                </form>
-            </div>
-        </section>
+                        </div>
+                        <div class="col-12" id="btn-enviar">
+                            <button class="btns-idioma" type="submit">Enviar formulario</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
         </main>
     </div>
     <hr>
@@ -406,6 +491,7 @@
         })
     })()
 </script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
