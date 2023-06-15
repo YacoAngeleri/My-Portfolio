@@ -11,6 +11,7 @@ header {
     a img:hover {
         width: 85%;
     }
+    
 
 
     .navbar-toggler {
@@ -28,28 +29,53 @@ header {
         margin: auto;
         width: 100%;
         justify-content: space-around;
+        list-style-type: none;
+        .item-menu{
+            cursor: pointer;
+            line-height: 2em;
+            font-family: sans-serif;
+            text-transform: capitalize;
+            transition: 0.5s;
+            position: relative;
+        }
+        .item-menu::before,
+        .item-menu::after{
+            content: '';
+            position: absolute;
+            transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
+            top: calc(50% - 0.6em / 2 );
+        }
+        .item-menu::before {left: 0; z-index: -1;}
+        .item-menu::after {right: 1; z-index: -2;}
+    
+        .item-menu:hover::before,
+        .item-menu:hover::after{
+            width: 100%;
+            height: 100%;
+            border-radius: .4em;
+            background-color: dodgerblue;
+        }
+        .item-menu:hover::before{
+            top: 0;
+        }
+        .item-menu:hover::after{
+            right: -0.4em;
+            filter: brightness(0.8);
+        }
+        li {
+            list-style: none;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    
+        li a {
+            color: gray;
+        }
 
+        li a:hover{
+            color: white;
+            font-size: 1.1em;
+        }
     }
 
-    li {
-        list-style: none;
-        padding-left: 1em;
-    }
-
-    li a {
-        color: gray;
-    }
-
-    li a:hover {
-        font-size: 1.1em;
-        opacity: 0.7;
-    }
-
-    li a:hover {
-        color: rgb(34, 34, 34);
-    }
-
-    li a:active {
-        color: black;
-    }
 }
