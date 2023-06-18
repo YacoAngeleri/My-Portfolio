@@ -31,4 +31,14 @@ section {
   width: 10em;
 }
 
+.redes-sociales {
+  font-size: 1.5em;
+}
+
+.red-social {
+  padding-right: 2em;
+  margin-bottom: 1em;
+  color: black;
+}
+
 /*# sourceMappingURL=styles.css.map */

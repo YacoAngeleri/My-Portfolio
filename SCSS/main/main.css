@@ -63,19 +63,7 @@
   text-decoration: none;
 }
 
-#card {
-  background-color: rgb(24, 92, 115);
-  border-radius: 1em;
-  color: rgb(200, 200, 200);
-}
-
-#card2 {
-  background-color: rgb(24, 92, 115);
-  border-radius: 1em;
-  color: rgb(200, 200, 200);
-}
-
-#card3 {
+#card, #card1, #card2, #card3, #card4 {
   background-color: rgb(24, 92, 115);
   border-radius: 1em;
   color: rgb(200, 200, 200);

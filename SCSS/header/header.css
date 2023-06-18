@@ -68,7 +68,8 @@ header ul li {
   padding-right: 1em;
 }
 header ul li a {
-  color: gray;
+  color: black;
+  font-weight: bold;
 }
 header ul li a:hover {
   color: white;
