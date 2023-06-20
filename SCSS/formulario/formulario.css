@@ -9,4 +9,9 @@
   text-align: center;
 }
 
+.container-formulario input:hover,
+.container-formulario textarea:hover {
+  font-size: 1.1em;
+}
+
 /*# sourceMappingURL=formulario.css.map */
