@@ -3,6 +3,12 @@
     --background-color:  rgb(41, 112, 136);
     --border-rad: 2em;
 }
+
+.img-titulos-sec{
+    width: 1em;
+    margin-right: 0.2em;
+}
+
 .container-about-me{
     background-color:var(--background-color);
     border-radius: var(--border-rad);
@@ -23,7 +29,10 @@
             width: 70%;
         }
     }
-
+    h4 .img-sec-educacion{
+        width: 1em;
+        margin-right: 0.2em;
+    }
     img {
         width: 20%;
         margin: auto;

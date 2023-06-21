@@ -3,6 +3,11 @@
   --border-rad: 2em;
 }
 
+.img-titulos-sec {
+  width: 1em;
+  margin-right: 0.2em;
+}
+
 .container-about-me {
   background-color: var(--background-color);
   border-radius: var(--border-rad);
@@ -25,6 +30,10 @@
 .container-educacion .openBootcamp .contenido-educacion,
 .container-educacion .colegio .contenido-educacion {
   width: 70%;
+}
+.container-educacion h4 .img-sec-educacion {
+  width: 1em;
+  margin-right: 0.2em;
 }
 .container-educacion img {
   width: 20%;
