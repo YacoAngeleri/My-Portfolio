@@ -11,7 +11,8 @@
 
 .container-formulario input:hover,
 .container-formulario textarea:hover {
-  font-size: 1.1em;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 /*# sourceMappingURL=formulario.css.map */

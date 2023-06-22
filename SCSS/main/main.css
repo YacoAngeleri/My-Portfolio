@@ -3,6 +3,13 @@
   --border-rad: 2em;
 }
 
+h3, h4, label {
+  background-color: rgb(15, 79, 100);
+  border-radius: 1em;
+  padding: 0.4em;
+  font-weight: bold;
+}
+
 .img-titulos-sec {
   width: 1em;
   margin-right: 0.2em;
@@ -50,13 +57,16 @@
 }
 .container-paginas a:hover {
   color: rgb(0, 0, 26);
-  font-size: 1.2em;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .container-paginas a:hover h3:hover {
-  font-size: 1.6em;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .container-paginas a:hover img:hover {
-  width: 31vw;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .container-paginas .pagina {
   margin: 0.8em auto;
@@ -72,7 +82,11 @@
   text-decoration: none;
 }
 
-#card, #card1, #card2, #card3, #card4 {
+#card,
+#card1,
+#card2,
+#card3,
+#card4 {
   background-color: rgb(24, 92, 115);
   border-radius: 1em;
   color: rgb(200, 200, 200);
@@ -92,11 +106,33 @@ a:active {
   margin-bottom: 1em;
   padding: 1em;
 }
+.container-habilidades h3 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+.container-habilidades .container-imagenes-habilidades {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+.container-habilidades .container-imagenes-habilidades .imagen-habilidades:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+.container-habilidades .container-imagenes-habilidades .img-habilidades {
+  width: 6em;
+  margin-bottom: 1em;
+}
 
 .container-curriculum {
   background-color: rgb(41, 112, 136);
   border-radius: 2em;
   text-align: center;
+  text-decoration: underline;
   margin: auto;
 }
 .container-curriculum iframe {
@@ -106,7 +142,8 @@ a:active {
   height: 20em;
 }
 .container-curriculum iframe:hover {
-  font-size: 1.05em;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .container-curriculum .titulos-curriculum {
   display: flex;

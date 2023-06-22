@@ -5,9 +5,6 @@
   header a img {
     width: 80%;
   }
-  header a img:hover {
-    width: 85%;
-  }
   header ul {
     flex-direction: column;
   }
@@ -33,9 +30,6 @@
     margin: 1em;
     width: 40vw;
   }
-  .container-paginas .pagina a img:hover {
-    width: 42vw;
-  }
   .container-curriculum iframe {
     width: 15em;
     height: 15em;
@@ -47,9 +41,6 @@
   }
   header a img {
     width: 95%;
-  }
-  header a img:hover {
-    width: 100%;
   }
   header .navbar-toggler {
     font-size: 0.9em;
@@ -70,9 +61,6 @@
   .container-paginas .pagina img {
     margin: 1em;
     width: 50vw;
-  }
-  .container-paginas .pagina a img:hover {
-    width: 52vw;
   }
   .container-curriculum iframe {
     width: 12em;

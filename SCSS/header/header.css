@@ -8,7 +8,8 @@ header a img {
   width: 80%;
 }
 header a img:hover {
-  width: 85%;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 header .navbar-toggler {
   background-color: rgb(95, 165, 189);
@@ -71,7 +72,7 @@ header ul li a {
   color: black;
   font-weight: bold;
 }
-header ul li a:hover {
+header ul .item-menu:hover a {
   color: white;
   font-size: 1.1em;
 }

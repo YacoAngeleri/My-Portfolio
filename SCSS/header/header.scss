@@ -1,17 +1,20 @@
 //Header
 header {
     padding: 1em 1em 0 1em;
-    a{
+
+    a {
         width: 15%;
     }
+
     a img {
         width: 80%;
     }
 
     a img:hover {
-        width: 85%;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
     }
-    
+
 
 
     .navbar-toggler {
@@ -30,7 +33,8 @@ header {
         width: 100%;
         justify-content: space-around;
         list-style-type: none;
-        .item-menu{
+
+        .item-menu {
             cursor: pointer;
             line-height: 2em;
             font-family: sans-serif;
@@ -38,44 +42,58 @@ header {
             transition: 0.5s;
             position: relative;
         }
+
         .item-menu::before,
-        .item-menu::after{
+        .item-menu::after {
             content: '';
             position: absolute;
             transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
-            top: calc(50% - 0.6em / 2 );
+            top: calc(50% - 0.6em / 2);
         }
-        .item-menu::before {left: 0; z-index: -1;}
-        .item-menu::after {right: 1; z-index: -2;}
-    
+
+        .item-menu::before {
+            left: 0;
+            z-index: -1;
+        }
+
+        .item-menu::after {
+            right: 1;
+            z-index: -2;
+        }
+
         .item-menu:hover::before,
-        .item-menu:hover::after{
+        .item-menu:hover::after {
             width: 100%;
             height: 100%;
             border-radius: .4em;
             background-color: dodgerblue;
         }
-        .item-menu:hover::before{
+
+        .item-menu:hover::before {
             top: 0;
         }
-        .item-menu:hover::after{
+
+        .item-menu:hover::after {
             right: -0.4em;
             filter: brightness(0.8);
         }
+
         li {
             list-style: none;
             padding-left: 1em;
             padding-right: 1em;
         }
-    
+
         li a {
             color: black;
             font-weight: bold;
         }
 
-        li a:hover{
-            color: white;
-            font-size: 1.1em;
+        .item-menu:hover {
+            a {
+                color: white;
+                font-size: 1.1em;
+            }
         }
     }
 
