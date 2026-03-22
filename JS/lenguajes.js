@@ -2,13 +2,13 @@
 function english() {
     document.getElementById("ingles").style.display = "none";
     document.getElementById("español").style.display = "inline";
-    acercaDeMi.innerHTML = "About Me"
+    acercaDeMi.innerHTML = "Professional profile"
     educacionTitulo.innerHTML = "Education"
     exp.innerHTML = "Programming experience"
-    skill.innerHTML = "Skills"
+    skill.innerHTML = "Habilities"
     contacto.innerHTML = "Contact"
-    cargo.innerHTML = "Front-End Junior Developer";
-    aboutMe.innerHTML = "<strong>About me:</strong>"
+    cargo.innerHTML = "Information Systems Engineering student";
+    aboutMe.innerHTML = "<strong>Professional profile:</strong>"
     type.innerHTML = "Third-year Information Systems Engineering student at UTN with a background in programming, data structures, operating systems, and computer architecture. Seeking my first professional opportunity in the IT field to apply my knowledge, continue developing my technical skills, and contribute to the development of software solutions."
     card.innerHTML = "Habilities: <br> - I greatly enjoy music and sports, and I'm a passionate fitness enthusiast. I used to be a professional tennis player. <br> - I'm a cooking enthusiast, and I enjoy spending my weekends reading and watching movies/series. <br> <br> Soft skills: <br> • Flexibility, adaptability to change <br> • Effective communication skills <br> • Problem-solving abilities <br> • Teamwork <br> • Proactiveness <br> • Creativity <br> • Critical thinking <br>" 
     educacionSeccion.innerHTML = "Education:";
@@ -56,8 +56,8 @@ function english() {
     skill.innerHTML = "habilidades"
     contacto.innerHTML = "Contacto"
     cargo.innerHTML = "Estudiante de Ingenieria En Sistemas De Información";
-    aboutMe.innerHTML = "<strong>Acerca de mi:</strong>"
-    type.innerHTML = "Durante 2022 estudié la carrera de artes multimediales de la universidad nacional de las artes. En ella tenía materias de sonido, animación, historia del arte, fotografía, etc. <br> Una de las materias que tenía era informática general 1, en la que vimos HTML, CSS, JavaScript y Bootstrap. Cursando esta materia me di cuenta de que era la única que realmente disfrutaba, que me podría pasar todo el día Programando y las horas se me pasaban como si nada, realmente lo disfrute. <br> Al finalizar el primer año de la licenciatura decidí que quería dedicarme al 100% a la programación, por lo que este año empece con algunos cursos como el de Alura Latam y Oracle o los de Open Bootcamp, con la intención de en el año 2024 iniciar una ingeniería en sistemas en la Universidad Tecnológica Nacional."
+    aboutMe.innerHTML = "<strong>Perfil profesional:</strong>"
+    type.innerHTML = "Estudiante de tercer año de Ingeniería en Sistemas de Información en la UTN, con formación en programación, estructuras de datos, sistemas operativos y arquitectura de computadoras. Busco mi primera experiencia profesional en el área de sistemas para aplicar mis conocimientos, seguir desarrollando mis habilidades técnicas y contribuir al desarrollo de soluciones de software."
     card.innerHTML = "Hobbies: <br> - Disfruto mucho la musica y el deporte, gran apasionado del entrenamiento, ex tenista profesional.<br> - Apasionado de la cocina, disfruto pasar mis fines de semana leyendo y viendo peliculas/series. </br> <br> Soft skills:<br> • Flexibilidad, adaptacion al cambio<br> • Capacidad de comunicacion efectiva<br> • Resolucion de problemas<br> • Trabajo en equipo<br> • Proactividad<br> • Creatividad<br> • Pensamiento critico"
     educacionSeccion.innerHTML = "Educación:";
     card1.innerHTML = "• Primer año de la licenciatura finalizado con un promedio general de 8,17 (ocho con 17).<br> • En la licenciatura se estudian materias relacionadas al desarrollo web con JavaScript, CSS y HTML, sonido, animación, fotógrafia, programación con Processing, etc."
