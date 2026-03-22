@@ -65,7 +65,7 @@ function english() {
     año_am.innerHTML = "2022 / Presente (Primer año finalizado)";
     universidad.innerHTML = "Universidad Nacional De Las Artes";
     cursoOracle.innerHTML = "Curso de desarrollador Front-End";
-    añoCursoOracle.innerHTML = "2023 / Presente";
+    añoCursoOracle.innerHTML = "Marzo 2023 - Septiembre 2023";
     empresaCursoOracle.innerHTML = "ONE - Oracle Next Education junto a Alura Latam.";
     card2.innerHTML = "Formaciones finalizadas: <hr> • Desarrollo personal.<br> - Duración: 35 Horas<br> <hr> • Principiante en programación.<br> - Duración: 75 Horas<br> <hr> • HTML & CSS.<br> - Duracion: 65 Horas<br> <hr> • Business Agility.<br> - Duracion: 26 Horas" 
     card3.innerHTML = " Formaciones finalizadas: <hr> • Introduccion a la programacion.<br> - Duración: 9 Horas<br> <hr> • Conceptos de la programacion.<br> - Duracion: 9 Horas<br> <hr> • HTML y CSS<br> - Duración: 17 Horas<br> <hr> • JavaScript Basico<br> - Duración: 15 Horas<br> <hr> • TypeScript<br> - Duracion: 9 Horas"
