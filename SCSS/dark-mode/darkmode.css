@@ -57,7 +57,9 @@ body[data-theme="dark"] #ingles,
 body[data-theme="dark"] #español {
   background-color: rgb(65, 64, 64);
   color: rgb(185, 185, 185);
+  border-color: rgb(120, 120, 120);
 }
+
 
 body[data-theme="dark"] #container-about-me,
 body[data-theme="dark"] #container-educacion,

@@ -26,6 +26,20 @@ section {
   object-fit: cover;
 }
 
+.acercademi{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  position: relative;
+}
+
+.infoAcercaDeMi{
+  display: flex;
+  flex-direction: column; 
+  gap: 3px;
+  margin-top: 0.5em;
+}
+
 .autor {
   margin: 1em 0;
   width: 10em;

@@ -1,7 +1,7 @@
 //Funciones para cambiar de idioma modificando el contenido de cada linea de texto
 function english() {
     document.getElementById("ingles").style.display = "none";
-    document.getElementById("español").style.display = "inline";
+    document.getElementById("español").style.display = "block";
     acercaDeMi.innerHTML = "Professional profile"
     educacionTitulo.innerHTML = "Education"
     exp.innerHTML = "Programming experience"
@@ -48,7 +48,7 @@ function english() {
   }
   
   function spanish() {
-    document.getElementById("ingles").style.display = "inline";
+    document.getElementById("ingles").style.display = "block";
     document.getElementById("español").style.display = "none";
     acercaDeMi.innerHTML = "Perfil profesional"
     educacionTitulo.innerHTML = "Educación"
