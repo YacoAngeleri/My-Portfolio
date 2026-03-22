@@ -396,8 +396,14 @@
                 <h2 id="formularioTitulo"><strong><img src="Imagenes/formulario-de-contacto.png" class="img-titulos-sec"
                             alt="Formulario de contacto">Contacto:</strong></h2>
                 <div class="container-formulario" id="container-formulario">
-                    <form class="row g-3 needs-validation" name="formulario" id="formulario" action="mail.php"
-                        method="post" novalidate>
+                    <!--<form class="row g-3 needs-validation" name="formulario" id="formulario" action="mail.php"
+                        method="post" novalidate>-->
+
+                    <!-- Envío en GitHub Pages vía FormSubmit (sin PHP). Para servidor con PHP cambio el action a mail.php. -->
+                    <form class="row g-3 needs-validation" name="formulario" id="formulario"
+                        action="https://formsubmit.co/yacoang@gmail.com" method="post" novalidate>
+                        <input type="hidden" name="_subject" value="Formulario de contacto de mi portafolio">
+                        <input type="hidden" name="_template" value="table">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <label for="validationCustom01" class="form-label" id="nameForm">Nombre:</label>
                             <input type="text" class="form-control" id="validationCustom01" placeholder="Ej: Juan"
@@ -488,6 +494,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+<script src="JS/form-submit.js"></script>
 <script src="JS/darkmode.js"></script>
 <script src="JS/lenguajes.js"></script>
 <script src="JS/back-to-top-btn.js"></script>
