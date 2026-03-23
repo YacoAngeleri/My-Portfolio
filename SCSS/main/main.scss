@@ -169,8 +169,22 @@ a:active {
     }
 }
 
+.container-idiomas {
+    background-color: rgb(41, 112, 136);
+    border-radius: 2em;
+    margin: auto;
+    padding: 1.2em;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: stretch;
+
+.idioma-certificado:hover {
+        color: black;
+    }
+}
+
 .container-lenguajes {
-    width: 30%;
+    width: 20%;
     margin: auto;
 
     .carousel-item {

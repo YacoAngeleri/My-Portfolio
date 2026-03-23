@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["formulario.scss"],"names":[],"mappings":"AACA;EACI;EACA;EACA;;;AAEJ;EACI;EACA;;;AAEJ;AAAA;EAEI;EACI","file":"formulario.css"}
+{"version":3,"sources":["formulario.scss","formulario.css"],"names":[],"mappings":"AACA;EACI,mCAAA;EACA,kBAAA;EACA,YAAA;ACAJ;;ADEA;EACI,qBAAA;EACA,kBAAA;ACCJ;;ADCA;;EAGQ,sBAAA;ACER","file":"formulario.css"}

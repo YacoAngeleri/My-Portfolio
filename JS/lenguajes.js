@@ -9,10 +9,10 @@ function english() {
     curriculumTitulo.innerHTML = "Resume";
     contacto.innerHTML = "Contact";
     cargo.innerHTML = "Information Systems Engineering student";
-    aboutMe.innerHTML = "<strong>Professional profile:</strong>";
+    aboutMe.innerHTML = "<strong><img src='Imagenes/tarjeta-de-identificacion.png' class='img-titulos-sec' alt='Tarjeta de identificacion'>Professional Profile: </strong>";
     type.innerHTML = "Third-year Information Systems Engineering student at UTN with a background in programming, data structures, operating systems, and computer architecture. Seeking my first professional opportunity in the IT field to apply my knowledge, continue developing my technical skills, and contribute to the development of software solutions.";
     card.innerHTML = "<div><img src='Imagenes/integracion.png' alt='Integracion' class='img-titulos-sec'> Skills </div> <br> Languages: C (Intermediate), JavaScript (Basic), HTML, CSS <br> Tools: Git, GitHub, Visual Studio Code <br> Concepts: Data Structures, Object-Oriented Programming, Web Development <br> <br> <div> <img src='Imagenes/habilidad2.png' alt='Habilidades' class='img-titulos-sec'> Strengths: <div> <br> Analytical Thinking <br> Teamwork <br> Continuous Learning <br> Time Management" ;
-    educacionSeccion.innerHTML = "Education:";
+    educacionSeccion.innerHTML = "<strong ><img src='Imagenes/gorro-de-graduacion.png' class='img-titulos-sec' alt='Gorro de graduacion'>Education:</strong>";
     card1.innerHTML = "Relevant Systems Courses: <br> • Algorithms and Data Structures <br> • Computer Architecture <br> • Operating Systems <br> • Systems Analysis <br> • Programming Paradigms (in progress) <br> • Programming Languages Syntax and Semantics (in progress) <br> • Data Communications (in progress)";
     am.innerHTML = "Information systems engineering";
     año_am.innerHTML = "2024 / Present";
@@ -21,18 +21,21 @@ function english() {
     añoCursoOracle.innerHTML = "March 2023 - September 2023";
     empresaCursoOracle.innerHTML = "ONE - Oracle Next Education";
     card2.innerHTML = "Completed formations: <hr> • Programming Fundamentals.<br> - Duration: 75 hours <hr> • HTML & CSS.<br> - Duration: 65 hours  <hr> • Business Agility.<br>  - Duration: 26 hours  <hr> • Front End.<br>  - Duration: 77 hours   <hr> • React.<br>  - Duration: 68 hours  <hr> • Entrepreneurship.<br>  - Duration: 45 hours";
-    titulo_pagina.innerHTML = "<strong>Proyects:</strong>";
+    titulo_pagina.innerHTML = "<strong><img src='Imagenes/experiencia.png' class='img-titulos-sec' alt='Dibujo Experiencia'>Proyects:</strong>";
     encriptador.innerHTML = "Text Encryptor";
     portfolio.innerHTML = "My Portfolio";
     repositorio1.innerHTML = "GitHub Repository";
     repositorio2.innerHTML = "GitHub Repository";
     repositorio3.innerHTML = "GitHub Repository";
     repositorio4.innerHTML = "GitHub Repository";
-    titulo_conocimientos.innerHTML = "<strong>technologies:</strong>";
-    habilidades_principales.innerHTML = "Intermediate"
-    habilidades_principiante.innerHTML = "Beginner"
+    titulo_conocimientos.innerHTML = "<strong><img src='Imagenes/habilidad.png' class='img-titulos-sec' alt='Foco de luz'>Technologies:</strong>";
+    habilidades_principales.innerHTML = "Intermediate";
+    habilidades_principiante.innerHTML = "Beginner";
     curriculumSpanish.innerHTML = "English Resume";
     curriculumEnglish.innerHTML = "Spanish Resume";
+    languagesSectionTitle.innerHTML = "<strong><img src='Imagenes/aprobado.png' class='img-titulos-sec' alt='Languages'>Languages:</strong>";
+    spanishLanguageLevel.innerHTML = "Spanish <br> • Native";
+    englishLanguageLevel.innerHTML = "English <br> • Advanced (C1) -> Certificated exam: <a href='https://drive.google.com/file/d/11yK32OVncXlvwW5EUC55ogyegS6bzESY/view?usp=sharing' class='idioma-certificado'>TOEFL IBT 2021 (view certificate)</a>  ";
     formularioTitulo.innerHTML = "<strong>Contact Form:</strong>";
     nameForm.innerHTML = "Name:";
     validForm.innerHTML = "Valid data";
@@ -59,10 +62,10 @@ function english() {
     curriculumTitulo.innerHTML = "Curriculum"
     contacto.innerHTML = "Contacto";
     cargo.innerHTML = "Estudiante de Ingenieria En Sistemas De Información";
-    aboutMe.innerHTML = "<strong>Perfil profesional:</strong>";
+    aboutMe.innerHTML = "<strong><img src='Imagenes/tarjeta-de-identificacion.png' class='img-titulos-sec' alt='Tarjeta de identificacion'>Perfil Profesional: </strong>";
     type.innerHTML = "Estudiante de tercer año de Ingeniería en Sistemas de Información en la UTN, con formación en programación, estructuras de datos, sistemas operativos y arquitectura de computadoras. Busco mi primera experiencia profesional en el área de sistemas para aplicar mis conocimientos, seguir desarrollando mis habilidades técnicas y contribuir al desarrollo de soluciones de software.";
     card.innerHTML = "<div><img src='Imagenes/integracion.png' alt='Integracion' class='img-titulos-sec'>Habilidades:</div> <br> • Lenguajes: C (intermedio), JavaScript (basico), HTML, CSS. <br> • Herramientas: Git, GitHub, VSC. <br> • Conceptos: Estructuras de datos, Programación orientada a objetos, Desarrollo web <br> <br> <div> <img src='Imagenes/habilidad2.png' alt='Habilidades' class='img-titulos-sec'> Fortalezas: </div><br> • Pensamiento analítico<br> • Trabajo en equipo <br> • Aprendizaje continuo<br> • Gestion de tiempo";
-    educacionSeccion.innerHTML = "Educación:";
+    educacionSeccion.innerHTML = "<strong ><img src='Imagenes/gorro-de-graduacion.png' class='img-titulos-sec' alt='Gorro de graduacion'>Educación:</strong>";
     card1.innerHTML = "Materias relevantes de Sistemas:<br> • Algoritmos y Estructuras de Programación <br> • Arquitectura de Computadoras <br> • Sistemas Operativos <br> • Análisis de Sistemas <br> • Paradigmas de Programación (en curso) <br> • Sintaxis y Semántica de los Lenguajes (en curso) <br> • Comunicación de Datos (en curso)";
     am.innerHTML = "Ingenieria En Sistemas De Información";
     año_am.innerHTML = "2024 / Presente";
@@ -71,18 +74,21 @@ function english() {
     añoCursoOracle.innerHTML = "Marzo 2023 - Septiembre 2023";
     empresaCursoOracle.innerHTML = "ONE - Oracle Next Education.";
     card2.innerHTML = "Formaciones finalizadas: <hr> • Principiante en programación.<br> - Duración: 75 Horas<br> <hr> • HTML & CSS.<br> - Duracion: 65 Horas<br> <hr> • Business Agility.<br> - Duracion: 26 Horas <hr> • Front End.<br> - Duracion: 77 Horas <hr> • React.<br> - Duracion: 68 Horas <hr> • Emprendimiento.<br> - Duracion: 45 Horas" ;
-    titulo_pagina.innerHTML = "<strong>Proyectos:</strong>";
+    titulo_pagina.innerHTML = "<strong><img src='Imagenes/experiencia.png' class='img-titulos-sec' alt='Dibujo Experiencia'>Proyectos:</strong>";
     encriptador.innerHTML = "Encriptador De Texto";
     portfolio.innerHTML = "Mi Portafolio";
     repositorio1.innerHTML = "Repositorio de GitHub";
     repositorio2.innerHTML = "Repositorio de GitHub";
     repositorio3.innerHTML = "Repositorio de GitHub";
     repositorio4.innerHTML = "Repositorio de GitHub";
-    titulo_conocimientos.innerHTML = "<strong>Tecnologias :</strong";
+    titulo_conocimientos.innerHTML = "<strong><img src='Imagenes/habilidad.png' class='img-titulos-sec' alt='Foco de luz'>Tecnologias:</strong>";
     habilidades_principales.innerHTML = "intermedio";
     habilidades_principiante.innerHTML = "Principiante";
     curriculumSpanish.innerHTML = "Curriculum en Español";
     curriculumEnglish.innerHTML = "Curriculum en Ingles";
+    languagesSectionTitle.innerHTML = "<strong><img src='Imagenes/aprobado.png' class='img-titulos-sec' alt='Languages'>Idiomas:</strong>";
+    spanishLanguageLevel.innerHTML = "Español <br> • Nativo";
+    englishLanguageLevel.innerHTML = "Ingles <br> • Avanzado (C1) -> Examen certificado: <a href='https://drive.google.com/file/d/11yK32OVncXlvwW5EUC55ogyegS6bzESY/view?usp=sharing' class='idioma-certificado'>TOEFL IBT 2021 (ver certificado)</a> ";
     formularioTitulo.innerHTML = "<strong>Formulario de contacto:</strong>";
     nameForm.innerHTML = "Nombre:";
     validForm.innerHTML = "Dato valido";

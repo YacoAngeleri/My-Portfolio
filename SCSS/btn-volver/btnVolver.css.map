@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["btnVolver.scss"],"names":[],"mappings":"AACA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA","file":"btnVolver.css"}
+{"version":3,"sources":["btnVolver.scss","btnVolver.css"],"names":[],"mappings":"AACA;EACI,eAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,YAAA;EACA,eAAA;EACA,aAAA;EACA,wBAAA;ACAJ;;ADGA;EACI,YAAA;ACAJ;;ADGA;EACI,WAAA;ACAJ;;ADGA;EACI,WAAA;EACA,YAAA;EACA,cAAA;ACAJ","file":"btnVolver.css"}

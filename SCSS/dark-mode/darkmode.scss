@@ -64,6 +64,7 @@ body[data-theme="dark"] #educacionTitulo,
 body[data-theme="dark"] #exp,
 body[data-theme="dark"] #skill,
 body[data-theme="dark"] #curriculumTitulo,
+body[data-theme="dark"] #container-languages,
 body[data-theme="dark"] #contacto {
     color: gray;
 }
@@ -79,6 +80,8 @@ body[data-theme="dark"] #container-educacion,
 body[data-theme="dark"] #container-paginas,
 body[data-theme="dark"] #container-habilidades,
 body[data-theme="dark"] #container-curriculum,
+body[data-theme="dark"] #spanishLanguageTitle,
+body[data-theme="dark"] #englishLanguageTitle,
 body[data-theme="dark"] #container-formulario {
     background-color: $bg-moon;
 }
@@ -104,6 +107,14 @@ body[data-theme="dark"] #card2,
 body[data-theme="dark"] #card3,
 body[data-theme="dark"] #card4 {
     background-color: $bg-sec-moon;
+}
+
+body[data-theme="dark"] .container-idiomas {
+    background-color: $bg-sec-moon;
+}
+
+body[data-theme="dark"] .container-idiomas .idioma-certificado {
+    border-color: rgb(120, 120, 120);
 }
 
 body[data-theme="dark"] #sendForm {

@@ -52,6 +52,10 @@
             height: 15em;
         }
     }
+    .container-idiomas {
+        flex-direction: column;
+
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -100,6 +104,14 @@
             height: 12em;
         }
     }
+
+    .container-idiomas {
+        padding: 1em;
+
+        .idioma-nivel {
+            font-size: 1em;
+        }
+    }
 }
 
 @media screen and (max-width:483px) {
@@ -138,6 +150,16 @@
         iframe{
             width: 9em;
             height: 9em;
+        }
+    }
+
+    .container-idiomas {
+        .idioma-card {
+            padding: .8em;
+        }
+
+        .idioma-certificado {
+            font-size: .9em;
         }
     }
 }
