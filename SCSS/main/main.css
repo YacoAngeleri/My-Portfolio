@@ -26,13 +26,13 @@ h3, h4, label {
   border-radius: var(--border-rad);
   padding: 1em;
 }
-.container-educacion .artes-multimediales,
+.container-educacion .utn,
 .container-educacion .oracle,
 .container-educacion .openBootcamp,
 .container-educacion .colegio {
   display: flex;
 }
-.container-educacion .artes-multimediales .contenido-educacion,
+.container-educacion .utn .contenido-educacion,
 .container-educacion .oracle .contenido-educacion,
 .container-educacion .openBootcamp .contenido-educacion,
 .container-educacion .colegio .contenido-educacion {
